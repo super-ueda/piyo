@@ -79,30 +79,29 @@
 </div>
 <p><em>覚えておくと便利な一例</em></p>
 <div class="line-block">
-<div class="line">IPアドレス：127.0.0.1</div>
-<div class="line">ホスト名　：localhost</div>
-<div class="line">これは、便宜上名前とアドレスがついてますが、実体は</div>
-<div class="line">マシン自身のことを指す時に使います。</div>
-<div class="line"><br /></div>
-<div class="line">IPアドレス：169.254.～</div>
-<div class="line">これは、マシン自身のNIC（ネットワークアダプタ）が</div>
-<div class="line">有効でない場合に表示されます。</div>
-<div class="line">有線であればケーブルに問題があったり、固定で割り当てた</div>
-<div class="line">IPアドレスと同じ設定値を持った機器が同じネットワークに</div>
-<div class="line">存在するなど、原因は多岐にわたります。</div>
-<div class="line">このアドレスを見たときは、今一度設定などを見直しましょう。</div>
+<div class="line">22    ：SSH</div>
+<div class="line">23    ：telnet</div>
+<div class="line">25    ：SMTP（メール送信）</div>
+<div class="line">53    ：DNS</div>
+<div class="line">80    ：HTTP（Web）</div>
+<div class="line">110   ：POP3（メール受信）</div>
+<div class="line">123   ：NTP（自動時刻調整）</div>
+<div class="line">143   ：IMAP（非ダウンロードのメール閲覧）</div>
+<div class="line">443   ：HTTPS（HTTP over SSL）</div>
+<div class="line">465   ：SMTPS（SMTP over SSL）</div>
+<div class="line">993   ：IMAPS（IMAP over SSL）</div>
+<div class="line">995   ：POP3S（POP3 over SSL）</div>
 </div>
-<p><em>ドメインの種類</em></p>
+<p><em>備考</em></p>
 <div class="line-block">
-<div class="line">ドメインには、国や地域、使用目的に応じて、様々な種類が</div>
-<div class="line">存在し、インターネットの革新とともに増加しています。</div>
-<div class="line">それらの取得価格や、更新の際に発生する費用も異なります。</div>
-<div class="line">また、それらを管理する団体も位置づけに応じて分散化されて、</div>
-<div class="line">運用に際しての検討の段階で充分な準備が必要です。</div>
-<div class="line"><br /></div>
-<div class="line">ネットを悪用するハッカー（正確にはクラッカー）たちが</div>
-<div class="line">仕掛けてくる悪事に立ち向かう術として、ドメインに関する</div>
-<div class="line">知識も大いに役立ちます。</div>
+<div class="line">開発に際し、HTTPの試験環境で&quot;8080&quot;を使う文化があるが、</div>
+<div class="line">近年のブラウザのセキュリティ対策の一環で使えなくなって</div>
+<div class="line">きている。</div>
+</div>
+<div class="line-block">
+<div class="line">また、SSH ポートフォワードと言って、任意のポートを</div>
+<div class="line">特定のノードを経由することでトンネリングする技術が</div>
+<div class="line">開発環境などで用いられるケースがある。</div>
 </div>
 </div>
 
